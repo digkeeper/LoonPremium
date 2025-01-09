@@ -4,7 +4,7 @@
 # > 地震预警-解锁会员
 http-response ^https?:\/\/mobile-new\.chinaeew\.cn\/v\d\/order\/apple\/vip script-path=https://raw.githubusercontent.com/digkeeper/LoonPremium/refs/heads/main/dzyj.js, requires-body=true, timeout=60, tag=地震预警-解锁会员
 # > 彩云天气 解锁SVIP.最高支持版本：6.7.2(旧版)
-http-response https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user) script-path=https://raw.githubusercontent.com/digkeeper/LoonPremium/refs/heads/main/CaiYunTianQi.js, requires-body=true, timeout=60, tag=彩云天气SVIP
+http-response https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user) script-path=https://raw.githubusercontent.com/digkeeper/LoonPremium/refs/heads/main/cayun.js, requires-body=true, timeout=60, tag=彩云天气SVIP
 
 
 [Mitm]
