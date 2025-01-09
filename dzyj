@@ -2,6 +2,6 @@
 #!desc=自用Premium
 [Script]
 # > 地震预警-解锁会员
-http-response ^https?:\/\/mobile-new\.chinaeew\.cn\/v\d\/order\/apple\/vip script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/DiZhenYuJing/JS/DZYJ.js, requires-body=true, timeout=60, tag=地震预警-解锁会员
+http-response ^https?:\/\/mobile-new\.chinaeew\.cn\/v\d\/order\/apple\/vip script-path=https://raw.githubusercontent.com/digkeeper/LoonPremium/refs/heads/main/dzyj.js, requires-body=true, timeout=60, tag=地震预警-解锁会员
 [Mitm]
 hostname =mobile-new.chinaeew.cn
